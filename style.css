@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+/* reng #CB3C43 */
+body{
+    background-color: #CB3C43;
+}
+
+
+.frame{
+        border: 5px solid white;
+        border-radius: 20px;
+        margin: 50px;
+        color: white;
+        min-height: 1200px;
+        position: relative;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+}
+.top-left{
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    margin: 50px;
+}
+.search{
+    margin:  0px 20px 0px 0px;
+    height: 30px;
+    width: 30px;
+}
+.shopping-cart{
+    margin:  0px 20px 0px 50px;
+}
+
+.saat{
+    display: flex;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin:  200px 0px 0px 400px ;    
+    flex-direction: column;
+}
+.saat .sekil{
+    -webkit-filter: drop-shadow(1px 1px 5px rgb(255, 255, 255));
+    
+}
+/* .saat: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.17)); */
+.soz{
+    margin: 200px 50px 0px 0px;
+    position: absolute;
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+}
+.kicikyazi{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.buttons{display: flex;
+    /* border: 1px solid black; */
+}
+button{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    color: #CB3C43;
+    border: 2px solid #CB3C43;
+    border-radius: 20px;
+    margin: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.learn{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}

@@ -1,0 +1,2 @@
+<a target="_blank" href="https://icons8.com/icon/132/поиск">Поиск</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+/* filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.17)); */
